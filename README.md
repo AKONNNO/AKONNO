@@ -31,26 +31,7 @@ I’m currently deepening my **JavaScript** skills while creating projects that 
 📫 **Email:** asamoahestella500@gmail.com
 💬 **GitHub:** [PrinceKorankye](https://github.com/AKONNNO)  
 
-name: Generate contribution snake
 
-on:
-  schedule:
-    - cron: '0 0 */1 * *'   # runs daily (change as you like)
-  workflow_dispatch:        # allows manual runs
-
-permissions:
-  contents: write           # important: allow the action to write files to the repo
-
-jobs:
-  build-snake:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: AKONNNO
-          outputs: |
-            output/github-contribution-grid-snake.svg?palette=github-dark&color_snake=%2300FF00
 
 
 🌍 **Portfolio:** Coming soon!  
